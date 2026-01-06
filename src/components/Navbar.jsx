@@ -15,7 +15,7 @@ export default function Navbar() {
         padding: "0 16px",
       }}
     >
-      <span style={{ marginRight: 8 }}>Dark Mode</span>
+      <span style={{ marginRight: 8, color: "white" }}>Dark Mode</span>
       <Switch checked={darkMode} onChange={setDarkMode} />
     </Header>
   );
